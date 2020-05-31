@@ -26,7 +26,6 @@ from geopy.geocoders import Nominatim as nm
 global pi,rad_earth
 pi = math.pi
 rad_earth = 6371
-#print(pi)
 
 class City():
 	def __init__(self,latitude,longitude):
@@ -61,4 +60,3 @@ city_2 = City(location2.latitude,location2.longitude)
 print("The aerial distance between {} and {} is {} km".format(c1,c2,dist_calc(city_1,city_2)))
 
 
-#print(2*5)
