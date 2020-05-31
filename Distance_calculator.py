@@ -5,9 +5,7 @@ The user can select which dimension they need the result in
 Steps:
 1. Take in city names
 2. Find latitude and longitude of the city
-	a. Check edge cases for cities having same names - take country name as well
-	b. Spellings of names entered could be incorrect - give a drop down suggestion as soon as the user types in the name
-	c. Pull the relevant library to get coordinates of the city
+	a. Pull the relevant library to get coordinates of the city
 	d. Check with user for the city, state and country names and confirm if they are talking about the same set of cities
 3. Create a function to calculate the distance from the coordinates
 4. Create a function to convert km to miles and vice-versa
